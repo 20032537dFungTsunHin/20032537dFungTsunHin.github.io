@@ -1,0 +1,44 @@
+body{
+  background-color: lightgreen;
+  color: black
+}
+@media screen and (max-width:900px){
+ body{ 
+ background-color: #F16F6F;
+ color: white;
+  }
+ }
+@media screen and (max-width:500px){
+ body{ 
+ background-color: #8A5114;
+ color: white;
+  }
+ }
+input[type=text]{
+  width:100%;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border: 2px solid orange;
+  border-radius: 20px;
+  background-color: orange;
+  color: white;
+}
+textarea{
+ width:50%;
+ height: 250px;
+ padding: 10px 20px;
+ box-sizing: border-box;
+ border:2px dashed green;
+  border-radius: 20px;
+  background-color: #DFDDF6;
+  font-size: 12px;
+  resize: none;
+  word-break: keep-all;
+}
+input[type=submit],input[type=reset]{
+  background-color: #433F7C;
+  color: white;
+  padding: 15px 100px;
+  text-decoration: wavy underline;
+  cursor: pointer;
+}

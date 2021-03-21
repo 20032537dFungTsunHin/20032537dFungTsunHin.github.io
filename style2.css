@@ -1,6 +1,6 @@
 body{
   background-color: lightgreen;
-  color: black
+  color: black;
 }
 @media screen and (max-width:900px){
  body{ 
